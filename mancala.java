@@ -8,8 +8,8 @@ public class mancala {
 	
 	public static void main(String[] args) throws Exception {
 		
-		String file = "testMancala.txt";
-		String file2 = "testMancala_solution.txt";
+		String file = "mancalaInputFile.txt";
+		String file2 = "mancalaOutputFile.txt";
 		MancalaSolver (file, file2);
 	}
 	
