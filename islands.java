@@ -8,8 +8,8 @@ public class islands {
 	
 	public static void main(String[] args) throws Exception {
 			
-		String file = "testIslands.txt";
-		String file2 = "testIslands_solution.txt";
+		String file = "islandsInputFile.txt";
+		String file2 = "islandsOutputFile.txt";
 		IslandCount (file, file2);
 	}
 		
