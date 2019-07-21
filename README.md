@@ -8,6 +8,6 @@ Consider a room full of balloons and arrows will be shot from the left end of a 
 The input file has an integer n on line 1 that is the number of 'cases' in the file. Line 2 contains n integers mi separated by a space, each representing the total number of balloons of the ith  problem. Line 3 onwards has mi integers hj separated by a space, that are the respective heights of the jth balloon from left to right.
 
 ## Mancala Leapfrog
-
+Consider a variant of mancala where the player is given a board with 12 holes. Some of the holes will contain a rock. The player can move rocks if there is another rock adjacent to it, and if the further spot of the adjacent rock is empty. The rock will move to the empty spot and the adjacent rock will be removed from the game. The goal of the game is to find the pattern that eliminates the most rocks from the board. The mancala.java file will read an input file of rock positions on a board of size 12 and output a file that shows how many rocks remain after executing the best possible solution. The input file has an integer n on line 1 that is the number of 'cases' in the file. Each other line contains a problem with 12 integers representing the mancala board. A '0' represents no rock and a '1' represents a rock in that position.  
 
 ## Islands
