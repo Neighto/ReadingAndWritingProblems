@@ -8,8 +8,8 @@ public class balloon {
 	
 	public static void main(String[] args) throws Exception {
 		
-		String file = "testBalloons.txt";
-		String file2 = "testBalloons_solution.txt";
+		String file = "balloonInputFile.txt";
+		String file2 = "balloonOutputFile.txt";
 		ArrayList<ArrayList<Integer>> result = ReadFile (file);
 		WriteFile (result, file2);
 	}
