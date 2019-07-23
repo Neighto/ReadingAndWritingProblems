@@ -1,8 +1,8 @@
-package A5; //Package Name Subject to Change
+package islands;
 import java.io.*;
 import java.util.*;
 
-public class islands {
+public class islandsCount {
 
 	//COUNT THE ISLANDS
 	

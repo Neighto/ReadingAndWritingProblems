@@ -1,8 +1,8 @@
-package A5; //Package Name Subject to Change
+package mancala;
 import java.io.*;
 import java.util.*;
 
-public class mancala {
+public class mancalaBestMoves {
 
 	//GREEDY ALGORITHM TO SOLVE MANCALA
 	
@@ -41,6 +41,7 @@ public class mancala {
 		    	  moves = RecursiveMancala (mancalaBoard, moves);
 		    	  pebbles -= moves; //Each move costs a pebble
 		    	  fw.write(pebbles + "\n");
+		    	  fw.write(System.getProperty("line.separator"));
 		      }
 		      
 			  f.close();  

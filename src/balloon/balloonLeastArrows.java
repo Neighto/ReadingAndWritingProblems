@@ -1,8 +1,8 @@
-package A5; //Package Name Subject to Change
+package balloon;
 import java.io.*;
 import java.util.*;
 
-public class balloon {
+public class balloonLeastArrows {
 
 	//FIRE ARROWS AT BALLOONS
 	
@@ -75,9 +75,10 @@ public class balloon {
 							j--; //go back one because of removal
 						}
 					}
-					arrows++; //that's an arrow for ya
+					arrows++; //that's an arrow
 				}
 				fw.write(arrows + "\n"); //write the arrows
+				fw.write(System.getProperty("line.separator"));
 			}
 			fw.close();
 		}
@@ -89,8 +90,3 @@ public class balloon {
 	}
 	
 }
-
-
-
-
-
