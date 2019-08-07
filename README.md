@@ -2,6 +2,7 @@
 Solutions to three separate problems that involve reading from files and subsequently writing to a file.
 
 > All three solutions were written in Java using Eclipse. Made by Nathan Ladd.
+> Fall 2018.
 
 ## Use the least amount of arrows to pop the balloons
 Consider a room full of balloons where arrows will be shot from the leftside of a room and fly straight to the rightside of the room at a height H. If an arrow hits a balloon, the arrow will go down to a height of H-1 in the next position and the balloon will be popped. This height will be maintained until it reaches the wall or hits another balloon. The balloonLeastArrows.java file will read an input file of balloon positions and output a file that has the number of arrows necessary to pop all of the balloons.
